@@ -1,0 +1,16 @@
+label.form-label { 
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    border: 0;
+    font-weight: 400;
+}
+
+label.form-label:hover { 
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border: 0;
+    font-weight: 400;
+}

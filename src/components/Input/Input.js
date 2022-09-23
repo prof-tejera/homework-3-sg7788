@@ -1,5 +1,12 @@
-const Input = (props) => {
-  return <input {...props} />;
+import "./Input.css"
+
+const RadioButton = ({ text }) => {
+  return (
+    <div className="button">
+      <input type="radio" id={text} name="group" /> 
+      <label for={text}>{text}</label>
+    </div>
+  )
 };
 
-export default Input;
+export default RadioButton;
