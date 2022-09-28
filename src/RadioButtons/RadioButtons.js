@@ -1,4 +1,3 @@
-import Panel from "components/Panel/Panel";
 import "./RadioButtons.css";
 import RadioButton from "components/Input/Input";
 
