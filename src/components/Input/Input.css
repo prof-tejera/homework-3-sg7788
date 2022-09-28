@@ -1,0 +1,33 @@
+.button {
+    float: left;
+}
+
+input[type="radio"] {
+    opacity: 0;
+    width: 0;
+    position: absolute;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #4791f1;
+    border: 0.5px solid #4791f1;
+    color: #fff; 
+}
+
+label {
+    display: inline-block;
+    background-color: #f4f4f4;
+    color: #000;    
+    border: 0.5px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+label:hover {
+    background-color: #4791f1;
+    border: 0.5px solid #4791f1;
+    color: #fff;
+}
